@@ -6,7 +6,7 @@ Responsive News App built with NextJS framework and Typescript.
 
 Features:
 • Responsive Web Design.
-• State management by useContext hook.
+• Using NEWS_API_KEY.
 
 Built using:
 - CSS

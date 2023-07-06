@@ -2,8 +2,8 @@ import Pagination from 'react-bootstrap/Pagination';
 
 function PaginationUi() {
     return (
-        <div className='d-flex align-items-center justify-content-center'>
-            <Pagination>
+        <div >
+            <Pagination className='d-flex flex-wrap align-items-center justify-content-center'>
                 <Pagination.First />
                 <Pagination.Prev />
                 <Pagination.Item>{1}</Pagination.Item>
@@ -13,7 +13,7 @@ function PaginationUi() {
                 <Pagination.Item>{11}</Pagination.Item>
                 <Pagination.Item active>{12}</Pagination.Item>
                 <Pagination.Item>{13}</Pagination.Item>
-                <Pagination.Item disabled>{14}</Pagination.Item>
+                <Pagination.Item>{14}</Pagination.Item>
 
                 <Pagination.Ellipsis />
                 <Pagination.Item>{20}</Pagination.Item>

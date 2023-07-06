@@ -76,7 +76,7 @@ const SearchNewsPage = () => {
                     { searchResultsIsError && <Alert variant='danger'>Something went wrong, please try again later</Alert> }
 
                     { searchResults?.length === 0 && <Alert variant='danger'>Nothing found, try a different query</Alert> }
-
+                
                     { searchResults && <NewsArticlesGrid articles={searchResults} /> }
                 </div>
             </div>
