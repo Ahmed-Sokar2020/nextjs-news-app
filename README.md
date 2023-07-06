@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# NextJS News App
+
+Responsive News App built with NextJS framework and Typescript. 
+
+Features:
+• Responsive Web Design.
+• State management by useContext hook.
+
+Built using:
+- CSS
+- Front-end library: React
+- NextJS (13.2.4)
+- CSS framework: React-bootstrap
+- Typescript
+
 ## Getting Started
 
 First, run the development server:

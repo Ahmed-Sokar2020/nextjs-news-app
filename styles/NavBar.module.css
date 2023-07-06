@@ -1,0 +1,6 @@
+.navbarToggle,
+.navbarToggle:focus {
+    box-shadow: none;
+    padding: 4px;
+}
+
